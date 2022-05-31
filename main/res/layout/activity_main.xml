@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="50dp">
+        <Button
+            android:id="@+id/add_item_buttonLost"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="CREATE A NEW ADVERT"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/show_items_buttonFound"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="SHOW ALL LOST &amp; FOUND ITEMS"/>
+
+        <Button
+            android:id="@+id/show_map_button"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp"
+            android:text="SHOW ON MAP"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
